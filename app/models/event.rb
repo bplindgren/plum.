@@ -73,3 +73,4 @@ class Event < ApplicationRecord
     (find_member_total(expenses, member) - even_split).round(2)
   end
 end
+

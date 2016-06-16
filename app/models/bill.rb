@@ -20,6 +20,4 @@ class Bill < ApplicationRecord
   def groupname
     self.event.group.name
   end
-
-
 end
